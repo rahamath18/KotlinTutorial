@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="studymaterialandref_topic_content">
+         <![CDATA[
+            <h3>Online URLs</3>
+            <p>
+            1. https://kotlinlang.org/docs/reference/ <br><br>
+            2. https://kotlinlang.org/docs/tutorials/ <br><br>
+            3. https://github.com/JetBrains/kotlin-web-site/tree/master/pages/docs <br><br>
+            4. https://blog.jetbrains.com/kotlin/ <br><br>
+            </p>
+
+            <h3>Online Books</3>
+            <p>
+                1. Programming Kotlin (Kindle Edition) by Stephen Samuel, Stefan Bocutiu
+                   - https://www.amazon.in/Programming-Kotlin-Stephen-Samuel-ebook/dp/B01LZEDAKT/ref=pd_sim_351_1?_encoding=UTF8&psc=1&refRID=9F0XMEMW24VAC636N9YC <br><br>
+
+                2. Fundamental Kotlin Kindle Edition by Milos Vasic
+                   - https://www.amazon.in/Fundamental-Kotlin-Milo%C5%A1-Vasi%C4%87-ebook/dp/B01MDNL056?_encoding=UTF8&ref_=rdr_ext_sb_ti_sims_1 <br><br>
+
+                3. Kotlin for Android Developers by Antonio Leiva
+                   - https://antonioleiva.com/kotlin-android-developers-book/ <br><br>
+
+                4. Kotlin in Action by Dmitry Jemerov and Svetlana Isakova
+                   - http://www.amazon.in/Kotlin-Action-Dmitry-Jemerov/dp/1617293296?_encoding=UTF8&pd_rd_i=1617293296&pd_rd_r=06E9VW4MNEKME5VQTHJR&pd_rd_w=U9t49&pd_rd_wg=K1QGg&psc=1&refRID=06E9VW4MNEKME5VQTHJR&ref_=pd_rhf_se_s_cp_5 <br><br>
+
+                5. Modern Web Development with Kotlin by Denis Kalinin
+                   - https://leanpub.com/modern-web-development-with-kotlin <br><br>
+
+                6. Android Development with Kotlin (Kindle Edition) by Marcin Moskala
+                   - https://www.amazon.in/Android-Development-Kotlin-Marcin-Moskala-ebook/dp/B01M24JMRD/ref=pd_sim_351_2?_encoding=UTF8&psc=1&refRID=DER434DG5R6AMHMN5S3T
+            </p>
+         ]]>
+    </string>
+
+</resources>

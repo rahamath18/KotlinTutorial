@@ -1,0 +1,6 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 104 ciObject found
+ciMethod java/io/ObjectOutputStream writeClassDesc (Ljava/io/ObjectStreamClass;Z)V 1297 1 292 6 -1
+ciMethodData java/io/ObjectOutputStream writeClassDesc (Ljava/io/ObjectStreamClass;Z)V 0 0 orig 264 56 91 19 13 1 0 0 0 40 30 161 34 1 0 0 0 192 2 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 0 0 0 17 4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 104 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 45 0x10007 0x48 0x48 0x3a 0x50002 0x3a 0x80003 0x3a 0x138 0xc0007 0x0 0x98 0x48 0x140005 0x0 0x7fe5ec963470 0x48 0x0 0x0 0x1a0007 0x48 0x48 0x0 0x1f0002 0x0 0x220003 0x0 0xa0 0x260005 0x0 0x7fe5ec962440 0x45 0x7c0101988 0x3 0x290007 0x42 0x48 0x3 0x2f0002 0x3 0x320003 0x3 0x28 0x380002 0x42 oops 3 15 java/io/ObjectOutputStream$HandleTable 30 java/io/ObjectStreamClass

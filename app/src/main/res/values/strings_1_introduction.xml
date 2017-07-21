@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="kotlinproglang_label"> 1.1 Kotlin (programming language)</string>
+    <string name="kotlinforserverside_label"> 1.2 Kotlin for Server Side</string>
+    <string name="kotlinforandroid_label"> 1.3 Kotlin for Android</string>
+    <string name="kotlinforjavascript_label"> 1.4 Kotlin for JavaScript</string>
+    <string name="kotlinpnewin11_label"> 1.5 What\'s New in 1.1</string>
+    <string name="kotlinbasicsytax_label"> 1.6 Basic Syntax</string>
+    <string name="kotlinpidioms_label"> 1.7 Idioms</string>
+    <string name="kotlincodingconvention_label"> 1.8 Coding Conventions</string>
+
+    <string name="intro_topic">
+         <![CDATA[
+         <p>
+            <h3><br>This topic gives introduction of Kotlin.</h3>
+         </p>
+         ]]>
+    </string>
+
+    <string name="kotlinproglang_topic_content">
+         <![CDATA[
+          <h3>Kotlin (programming language)</h3>
+          <p>
+            Kotlin is a statically-typed programming language that runs on the Java Virtual Machine and also can be compiled to JavaScript source code or uses the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework.
+          </p>
+          <p>
+            The name comes from Kotlin Island, near St. Petersburg. Andrey Breslav mentioned that the team decided to name it after an island just like Java was named after the Indonesian island of Java.
+          </p>
+          <p>
+            Kotlin is being promoted by Google Android (operating system).
+          </p>
+          <p>
+            We believe Kotlin is an excellent fit for Android not only because it gives developers what they want, but also because it matches the spirit of Android.
+          </p>
+
+          <h3>History</h3>
+          <p>
+            In July 2011 JetBrains unveiled Project Kotlin, a new language for the JVM, which had been under development for a year.[5] JetBrains lead Dmitry Jemerov said that most languages did not have the features they were looking for, with the exception of Scala. However, he cited the slow compile time of Scala as an obvious deficiency.[5] One of the stated goals of Kotlin is to compile as quickly as Java. In February 2012, JetBrains open sourced the project under the Apache 2 license.[6]
+          </p>
+          <p>
+            JetBrains hopes that the new language will drive IntelliJ IDEA sales.
+          </p>
+          <p>
+            Kotlin v1.0 was released on February 15, 2016.[8] This is considered to be the first officially stable release and JetBrains has committed to long-term backwards compatibility starting with this version.
+          </p>
+          <p>
+            At Google I/O 2017, Google announced first-class support for Kotlin on Android.[9]
+          </p>
+
+          <h3>Philosophy</h3>
+          <p>
+             Development lead Andrey Breslav has said that Kotlin is designed to be an industrial-strength object-oriented language, and a "better language" than Java, but still be fully interoperable with Java code, allowing companies to make a gradual migration from Java to Kotlin.[10]
+          </p>
+
+          <h3>Syntax</h3>
+          <p>
+            Kotlin variable declarations and parameter lists have the data type come after the variable name (and with a colon separator), similar to Pascal. As in Scala and Groovy, semicolons are optional as a statement terminator; in most cases a newline is sufficient for the compiler to deduce that the statement has ended.[11]
+          </p>
+
+          <h3>Semantics</h3>
+          <p>
+            In addition to the classes and methods (called member functions in Kotlin) of object-oriented programming, Kotlin also supports procedural programming with the use of functions.[12] As in C and C++, the entry point to a Kotlin program is a function named "main", which is passed an array containing any command line arguments. Perl and Unix/Linux shell script-style string interpolation is supported. Type inference is also supported.
+          </p>
+          <p>
+            <br>Hello, world! example<br><br>
+
+            fun main(args: Array<String>) {   <br>
+               &nbsp;&nbsp;&nbsp;val scope = \"world\"   <br>
+               &nbsp;&nbsp;&nbsp;println("Hello, $scope!")   <br>
+            }
+          </p>
+
+          <h3>Tools</h3>
+          <p>
+            IntelliJ IDEA has plug-in support for Kotlin.[13] IntelliJ IDEA 15 is the first version to bundle Kotlin plugin in the IntelliJ Installer, and provide support of it out of the box.[14]
+            </p>
+          <p>
+            JetBrains also provides a plugin for Eclipse.[15][16]
+            </p>
+          <p>
+            Integration with common Java build tools is supported including Apache Maven,[17] Apache Ant,[18] and Gradle.[19]
+            </p>
+          <p>
+            Android Studio (based on IntelliJ IDEA) see https://developer.android.com/kotlin/index.html
+          </p>
+
+          <h3>Applications</h3>
+          <p>
+            One of the obvious applications of Kotlin is Android development. The platform was stuck on Java 7 for a while (with some contemporary language features made accessible through the use of Retrolambda[20] or the Jack toolchain[21]) and Kotlin introduces many improvements for programmers such as null-pointer safety, extension functions and infix notation. Accompanied by full Java compatibility and good IDE support (Android Studio[22]) it is intended to improve code readability, give an easier way to extend Android SDK classes and speed up development.[23]
+            </p>
+          <p>
+            Kotlin was announced as an official Android development language at Google I/O 2017. It became the third language fully supported for Android, in addition to Java and C++.[24]
+          </p>
+
+          <h3>Further read about Kotlin_(programming_language)</h3>
+          <p>
+            https://en.m.wikipedia.org/wiki/Kotlin_(programming_language)
+          </p>
+         ]]>
+     </string>
+
+    <string name="kotlinforserverside_topic_content">
+         <![CDATA[
+            <h3>Using Kotlin for Server-side Development</h3>
+            <p>Kotlin is a great fit for developing server-side applications, allowing to write concise and expressive code while
+            maintaining full compatibility with existing Java-based technology stacks and a smooth learning curve:</p>
+            <ul>
+            <li><strong>Expressiveness</strong>: Kotlin\'s innovative language features, such as its support for <a href="/JetBrains/kotlin-web-site/blob/master/docs/reference/type-safe-builders.html">type-safe builders</a>
+            and <a href="/JetBrains/kotlin-web-site/blob/master/docs/reference/delegated-properties.html">delegated properties</a>, help build powerful and easy-to-use abstractions.</li>
+            <li><strong>Scalability</strong>: Kotlin\'s support for <a href="/JetBrains/kotlin-web-site/blob/master/docs/reference/coroutines.html">coroutines</a> helps build server-side applications
+            that scale to massive numbers of clients with modest hardware requirements.</li>
+            <li><strong>Interoperability</strong>: Kotlin is fully compatible with all Java-based frameworks, which lets you stay on your
+            familiar technology stack while reaping the benefits of a more modern language.</li>
+            <li><strong>Migration</strong>: Kotlin supports gradual, step by step migration of large codebases from Java to Kotlin. You can start
+            writing new code in Kotlin while keeping older parts of your system in Java.</li>
+            <li><strong>Tooling</strong>: In addition to great IDE support in general, Kotlin offers framework-specific tooling (for example,
+            for Spring) in the plugin for IntelliJ IDEA Ultimate.</li>
+            <li><strong>Learning Curve</strong>: For a Java developer, getting started with Kotlin is very easy. The automated Java to Kotlin converter included in the Kotlin plugin helps with the first steps. <a href="/JetBrains/kotlin-web-site/blob/master/docs/tutorials/koans.html">Kotlin Koans</a> offer a guide through the key features of the language with a series of interactive exercises.</li>
+            </ul>
+            <h4>Frameworks for Server-side Development with Kotlin</h4>
+            <ul>
+            <li>
+            <p><a href="https://spring.io">Spring</a> makes use of Kotlin\'s language features to offer <a href="https://spring.io/blog/2017/01/04/introducing-kotlin-support-in-spring-framework-5-0">more concise APIs</a>,
+            starting with version 5.0. The <a href="https://start.spring.io/#!language=kotlin">online project generator</a> allows to quickly generate a new project in Kotlin.</p>
+            </li>
+            <li>
+            <p><a href="http://vertx.io">Vert.x</a>, a framework for building reactive Web applications on the JVM, offers <a href="https://github.com/vert-x3/vertx-lang-kotlin">dedicated support</a>
+            for Kotlin, including <a href="http://vertx.io/docs/vertx-core/kotlin/">full documentation</a>.</p>
+            </li>
+            <li>
+            <p><a href="https://github.com/kotlin/ktor">Ktor</a> is a Kotlin-native Web framework built by JetBrains, making use of coroutines
+            for high scalability and offering an easy-to-use and idiomatic API.</p>
+            </li>
+            <li>
+            <p><a href="https://github.com/kotlin/kotlinx.html">kotlinx.html</a> is a DSL that can be used to build HTML in a Web application.
+            It serves as an alternative to traditional templating systems such as JSP and FreeMarker.</p>
+            </li>
+            <li>
+            <p>The available options for persistence include direct JDBC access, JPA, as well as using NoSQL databases through their Java drivers.
+            For JPA, the <a href="/JetBrains/kotlin-web-site/blob/master/docs/reference/compiler-plugins.html#kotlin-jpa-compiler-plugin">kotlin-jpa compiler plugin</a> adapts
+            Kotlin-compiled classes to the requirements of the framework.</p>
+            </li>
+            </ul>
+            <h4>Deploying Kotlin Server-side Applications</h4>
+            <p>Kotlin applications can be deployed into any host that supports Java Web applications, including Amazon Web Services,
+            Google Cloud Platform and more.</p>
+            <p>To deploy Kotlin applications on <a href="https://www.heroku.com">Heroku</a>, you can follow the <a href="https://devcenter.heroku.com/articles/getting-started-with-kotlin">official Heroku tutorial</a>.</p>
+            <p>AWS Labs provides a <a href="https://github.com/awslabs/serverless-photo-recognition">sample project</a> showing the use of Kotlin
+            for writing <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> functions.</p>
+            <h2>Users of Kotlin on the Server Side</h2>
+            <p><a href="https://www.corda.net/2017/01/10/kotlin/">Corda</a> is an open-source distributed ledger platform, supported by major
+            banks, and built entirely in Kotlin.</p>
+            <p><a href="https://account.jetbrains.com/">JetBrains Account</a>, the system responsible for the entire license sales and validation
+            process at JetBrains, is written in 100% Kotlin and has been running in production since 2015 with no major issues.</p>
+            <h2>Next Steps</h2>
+            <ul>
+            <li>The <a href="/JetBrains/kotlin-web-site/blob/master/docs/tutorials/httpservlets.html">Creating Web Applications with Http Servlets</a> and
+            <a href="/JetBrains/kotlin-web-site/blob/master/docs/tutorials/spring-boot-restful.html">Creating a RESTful Web Service with Spring Boot</a> tutorials
+            show you how you can build and run very small Web applications in Kotlin.</li>
+            <li>For a more in-depth introduction to the language, check out the <a href="/JetBrains/kotlin-web-site/blob/master/docs/reference/index.html">reference documentation</a> on this site and
+            <a href="/JetBrains/kotlin-web-site/blob/master/docs/tutorials/koans.html">Kotlin Koans</a>.</li>
+            </ul>
+         ]]>
+    </string>
+
+    <string name="kotlinforandroid_topic_content">
+         <![CDATA[
+
+            <h3>Using Kotlin for Android Development</h3>
+
+            <p>
+                Kotlin is a great fit for developing Android applications, bringing all of the advantages of a
+                modern language to the Android platform without introducing any new restrictions:
+            </p>
+            <p>
+                <strong>Compatibility:</strong> Kotlin is fully compatible with JDK 6, ensuring that Kotlin applications can run on older Android devices with no issues. The Kotlin tooling is fully supported in Android Studio and compatible with the Android build system.<br>
+                <strong>Performance:</strong> A Kotlin application runs as fast as an equivalent Java one, thanks to very similar bytecode structure. With Kotlin\'s support for inline functions, code using lambdas often runs even faster than the same code written in Java.<br>
+                <strong>Interoperability:</strong> Kotlin is 100% interoperable with Java, allowing to use all existing Android libraries in a Kotlin application. This includes annotation processing, so databinding and Dagger work too.<br>
+                <strong>Footprint:</strong> Kotlin has a very compact runtime library, which can be further reduced through the use of ProGuard. In a real application, the Kotlin runtime adds only a few hundred methods and less than 100K to the size of the .apk file.<br>
+                <strong>Compilation Time:</strong> Kotlin supports efficient incremental compilation, so while there\'s some additional overhead for clean builds, incremental builds are usually as fast or faster than with Java.<br>
+                <strong>Learning Curve:</strong> For a Java developer, getting started with Kotlin is very easy. The automated Java to Kotlin converter included in the Kotlin plugin helps with the first steps. Kotlin Koans offer a guide through the key features of the language with a series of interactive exercises.
+            </p>
+
+            <h4>Kotlin for Android Case Studies</h4>
+            <p>
+                Kotlin has been successfully adopted by major companies, and a few of them have shared their experiences:
+            </p>
+            <p>
+                Pinterest has successfully introduced Kotlin into their application, used by 150M people every month.
+            </p>
+            <p>
+                Basecamp\'s Android app is 100% Kotlin code, and they report a huge difference in programmer happiness and great improvements in work quality and speed.
+            </p>
+            <p>
+                Keepsafe\'s App Lock app has also been converted to 100% Kotlin, leading to a 30% decrease in source line count and 10% decrease in method count.
+            </p>
+
+            <h4>Tools for Android Development</h4>
+            <p>
+                The Kotlin team offers a set of tools for Android development that goes beyond the standard language features:
+            </p>
+            <p>
+                Kotlin Android Extensions is a compiler extension that allows you to get rid of findViewById() calls in your code and to replace them with synthetic compiler-generated properties.
+            </p>
+            <p>
+                Anko is a library providing a set of Kotlin-friendly wrappers around the Android APIs, as well as a DSL that lets your replace your layout .xml files with Kotlin code.
+            </p>
+
+            <h4>Next Steps</h4>
+
+            <p>
+                Download an install Android Studio 3.0 Preview, which includes Kotlin support out of the box.
+            </p>
+            <p>
+                Follow the Getting Started with Android and Kotlin tutorial to create your first Kotlin application.
+            </p>
+            <p>
+                For a more in-depth introduction, check out the reference documentation on this site and Kotlin Koans.
+            </p>
+            <p>
+                Another great resource is Kotlin for Android Developers, a book that guides you step by step through the process of creating a real Android application in Kotlin.
+            </p>
+
+            <p>
+            Check out Google\'s sample projects written in Kotlin.
+                - https://developer.android.com/samples/index.html?language=kotlin
+            </p>
+         ]]>
+    </string>
+
+    <string name="kotlinforjavascript_topic_content">
+         <![CDATA[
+
+                <h3>Kotlin JavaScript Overview</h3>
+                <p>
+                    Kotlin provides the ability to target JavaScript. It does so by transpiling Kotlin to JavaScript.
+                    The current implementation targets ECMAScript 5.1 but there are plans to eventually target ECMAScript 2015 also.
+                </p>
+                <p>
+                    When you choose the JavaScript target, any Kotlin code that is part of the project as well
+                    as the standard library that ships with Kotlin is transpiled to JavaScript.
+                    However, this excludes the JDK and any JVM or Java framework or library used.
+                    Any file that is not Kotlin will be ignored during compilation.
+                </p>
+
+                <p>The Kotlin compiler tries to comply with the following goals:</p>
+
+                <ul>
+                    <li>Provide output that is optimal in size</li> <br>
+                    <li>Provide output that is readable JavaScript</li> <br>
+                    <li>Provide interoperability with existing module systems</li> <br>
+                    <li>Provide the same functionality in the standard library whether targeting JavaScript or
+                    the JVM (to the largest possible degree).</li>
+                </ul>
+                <h4>How can it be used</h4>
+                <p>You may want to compile Kotlin to JavaScript in the following scenarios:</p>
+                <ul>
+                <li>
+                <p>Creating Kotlin code that targets client-side JavaScript</p>
+                <ul>
+                <li>
+                <p>
+                    <strong>Interacting with DOM elements</strong>. Kotlin provides a series of statically typed
+                    interfaces to interact with the Document Object Model, allowing creation and update of DOM elements.
+                </p>
+                </li>
+                <li>
+                <p><strong>Interacting with graphics such as WebGL</strong>. You can use Kotlin to create graphical elements on a web page using WebGL.</p>
+                </li>
+                </ul>
+                </li>
+                <li>
+                <p>
+                    Creating Kotlin code that targets server-side JavaScript
+                </p>
+                <ul>
+                <li><strong>Working with server-side technology</strong>. You can use Kotlin to interact with server-side JavaScript such as node.js</li>
+                </ul>
+                </li>
+                </ul>
+                <p>
+                    Kotlin can be used together with existing third-party libraries and frameworks, such as JQuery or ReactJS. To access third-party frameworks
+                    with a strongly-typed API, you can convert TypeScript definitions from the <a href="http://definitelytyped.org/">Definitely Typed</a>
+                    type definitions repository to Kotlin using the <a href="https://github.com/kotlin/ts2kt">ts2kt</a> tool. Alternatively, you can use
+                    the <a href="/JetBrains/kotlin-web-site/blob/master/pages/docs/reference/dynamic-type.html">dynamic type</a> to access any framework without strong typing.
+                </p>
+                <p>
+                    Kotlin is also compatible with CommonJS, AMD and UMD, <a href="/JetBrains/kotlin-web-site/blob/master/docs/tutorials/javascript/working-with-modules/working-with-modules.html">making interaction with different</a> module systems straightforward.
+                </p>
+                <h4>Getting Started with Kotlin to JavaScript</h4>
+                <p>https://kotlinlang.org/docs/tutorials/javascript/kotlin-to-javascript/kotlin-to-javascript.html</p>
+         ]]>
+    </string>
+
+    <string name="kotlinpnewin11_topic_content">
+         <![CDATA[
+            <h3>What\'s New in Kotlin 1.1</h3>
+             <h5>
+                Table of Contents
+            </h5>
+
+            <ul>
+                <li> - Coroutines</li><br>
+                <li> - Other language features</li><br>
+                <li> - Standard library</li><br>
+                <li> - JVM backend</li><br>
+                <li> - JavaScript backend</li>
+            </ul>
+
+            <h5>
+                JavaScript
+            </h5>
+
+            <p>
+                Starting with Kotlin 1.1, the JavaScript target is no longer considered experimental.
+                All language features are supported, and there are many new tools for integration with the
+                front-end development environment. See below for a more detailed list of changes.
+            </p>
+
+            <h5>
+                Coroutines (experimental)
+            </h5>
+
+            <p>
+                The key new feature in Kotlin 1.1 is coroutines, bringing the support of async/await,
+                yield and similar programming patterns. The key feature of Kotlin\'s design is that the
+                implementation of coroutine execution is part of the libraries, not the language,
+                so you aren\'t bound to any specific programming paradigm or concurrency library.
+            </p>
+            <p>
+                A coroutine is effectively a light-weight thread that can be suspended and resumed later.
+                Coroutines are supported through suspending functions: a call to such a function can potentially
+                suspend a coroutine, and to start a new coroutine we usually use an anonymous suspending functions
+                (i.e. suspending lambdas).
+            </p>
+
+            <p>
+                Let\'s look at async/await which is implemented in an external library, kotlinx.coroutines:
+            </p>
+            <p>
+                // runs the code in the background thread pool<br>
+                <font color="#0037b3">fun</font> asyncOverlay() = async(CommonPool) { <br>
+                    &nbsp;&nbsp;&nbsp;// start two async operations <br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> original = asyncLoadImage(<font color="#4ed297">\"original\"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> overlay = asyncLoadImage(<font color="#4ed297">\"overlay\"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;// and then apply overlay to both results <br>
+                    &nbsp;&nbsp;&nbsp;applyOverlay(original.await(), overlay.await()) <br>
+                } <br>
+            </p>
+            <p>
+                // launches new coroutine in UI context<br>
+                launch(UI) {<br>
+                    &nbsp;&nbsp;&nbsp;// wait for async overlay to complete<br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> image = asyncOverlay().await()<br>
+                    &nbsp;&nbsp;&nbsp;// and then show it in UI<br>
+                    &nbsp;&nbsp;&nbsp;showImage(image)<br>
+                }
+            </p>
+            <p>
+                Here, async { - - - } starts a coroutine and, when we use await(), the execution of the
+                coroutine is suspended while the operation being awaited is executed, and is resumed
+                (possibly on a different thread) when the operation being awaited completes.
+            </p>
+            <p>
+                The standard library uses coroutines to support lazily generated sequences with
+                yield and yieldAll functions. In such a sequence, the block of code that returns
+                sequence elements is suspended after each element has been retrieved, and resumed
+                when the next element is requested. Here\'s an example:
+            </p>
+
+            <p>
+                For further read
+                https://kotlinlang.org/docs/reference/whatsnew11.html
+            </p>
+
+         ]]>
+    </string>
+
+    <string name="kotlinbasicsytax_topic_content">
+         <![CDATA[
+
+            <h3>Basic Syntax</h3>
+
+            <h4>Defining packages</h4>
+
+            <p>Package specification should be at the top of the source file:</p>
+
+            <font color="#0037b3">package</font> my.demo  <br><br>
+
+            <font color="#0037b3">import</font> java.util.*  <br><br>
+
+            // - - -
+
+            <p>
+            It is not required to match directories and packages: source files can be placed
+            arbitrarily in the file system.<br>
+
+            See Packages - https://kotlinlang.org/docs/reference/packages.html
+            </p>
+
+            <p>
+            <h4>Defining functions</h4>
+
+            Function having two Int parameters with Int return type: <br>
+            </p>
+
+            <p>
+            <font color="#0037b3">fun</font> sum(a: Int, b: Int): Int { <br>
+
+                &nbsp;&nbsp;&nbsp;return a + b <br>
+
+            } <br><br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+
+                &nbsp;&nbsp;&nbsp;print(<font color="#4ed297">\"sum of 3 and 5 is \"</font>) <br>
+
+                &nbsp;&nbsp;&nbsp;println(sum(3, 5)) <br>
+
+            } <br><br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br>
+            </p>
+
+            <p>
+            Function with an expression body and inferred return type: <br><br>
+
+            <font color="#0037b3">fun</font> sum(a: Int, b: Int) = a + b <br><br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"sum of 19 and 23 is ${sum(19, 23)}\"</font>) <br>
+
+            } <br>
+            Target platform: JVMRunning on kotlin v. 1.1.3
+            <br> <br>
+            Function returning no meaningful value: <br> <br>
+
+            <font color="#0037b3">fun</font> printSum(a: Int, b: Int): Unit { <br>
+
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297”>\"sum of $a and $b is ${a + b}\"</font>) <br>
+
+            } <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+
+                &nbsp;&nbsp;&nbsp;printSum(-1, 8) <br>
+
+            } <br>
+            Target platform: JVMRunning on kotlin v. 1.1.3
+
+             <br><br>Unit return type can be omitted: <br><br>
+
+            <font color="#0037b3">fun</font> printSum(a: Int, b: Int) { <br>
+
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297”>\"sum of $a and $b is ${a + b}\"</font>) <br>
+
+            } <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+
+                &nbsp;&nbsp;&nbsp;printSum(-1, 8) <br>
+
+            } <br>
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br>
+
+             <br>See Functions. https://kotlinlang.org/docs/reference/functions.html
+            </p>
+
+            <p>
+            <h4>Defining local variables</h4>
+
+            Assign-once (read-only) local variable: <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> a: Int = 1  // immediate assignment <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> b = 2   // Int type is inferred <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> c: Int  // Type required when no initializer is provided <br>
+                &nbsp;&nbsp;&nbsp;c = 3       // deferred assignment <br>
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"a = $a, b = $b, c = $c\"</font>) <br>
+            } <br> <br>
+
+
+
+            Mutable variable: <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;var x = 5 // `Int` type is inferred <br>
+                &nbsp;&nbsp;&nbsp;x += 1 <br>
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"x = $x\"</font>) <br>
+            } <br> <br>
+
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br>
+
+            See also Properties And Fields - https://kotlinlang.org/docs/reference/properties.html <br>
+
+            <h4>Comments</h4>
+
+            Just like Java and JavaScript, Kotlin supports end-of-line and block comments. <br> <br>
+
+            // This is an end-of-line comment <br> <br>
+
+            /* This is a block comment  <br>
+               on multiple lines. */ <br> <br>
+
+            Unlike Java, block comments in Kotlin can be nested. <br> <br>
+
+            See Documenting Kotlin Code - https://kotlinlang.org/docs/reference/kotlin-doc.html
+            for information on the documentation comment syntax. <br>
+
+            <h4>Using string templates</h4>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;var a = 1 <br>
+                &nbsp;&nbsp;&nbsp;// simple name in template: <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> s1 = "a is $a" <br> <br>
+
+                &nbsp;&nbsp;&nbsp;a = 2 <br>
+                &nbsp;&nbsp;&nbsp;// arbitrary expression in template: <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> s2 = "${s1.replace("is", "was")}, but now is $a" <br>
+                &nbsp;&nbsp;&nbsp;println(s2) <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See String templates - https://kotlinlang.org/docs/reference/basic-types.html#string-templates <br>
+
+            <h4>Using conditional expressions</h4>
+
+            <font color="#0037b3">fun</font> maxOf(a: Int, b: Int): Int { <br>
+                &nbsp;&nbsp;&nbsp;if (a > b) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a <br>
+                &nbsp;&nbsp;&nbsp;} else { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"max of 0 and 42 is ${maxOf(0, 42)}\"</font>) <br>
+            } <br> <br>
+
+            Using if as an expression: <br>
+
+            <font color="#0037b3">fun</font> maxOf(a: Int, b: Int) = if (a > b) a else b <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"max of 0 and 42 is ${maxOf(0, 42)}\"</font>) <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+
+            See if-expressions - https://kotlinlang.org/docs/reference/control-flow.html#if-expression <br>
+
+            <h4>Using nullable values and checking for null</h4>
+
+            A reference must be explicitly marked as nullable when null value is possible. <br> <br>
+
+            Return null if str does not hold an integer: <br> <br>
+
+            <font color="#0037b3">fun</font> parseInt(str: String): Int? { <br>
+                &nbsp;&nbsp;&nbsp;// - - - <br>
+            } <br> <br>
+
+
+
+            Use a function returning nullable value: <br> <br>
+
+            <font color="#0037b3">fun</font> parseInt(str: String): Int? { <br>
+                &nbsp;&nbsp;&nbsp;return str.toIntOrNull() <br>
+            } <br> <br>
+
+            <font color="#0037b3">fun</font> printProduct(arg1: String, arg2: String) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> x = parseInt(arg1) <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> y = parseInt(arg2) <br>
+
+                &nbsp;&nbsp;&nbsp;// Using `x * y` yields error because they may hold nulls. <br>
+                &nbsp;&nbsp;&nbsp;if (x != null && y != null) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// x and y are automatically cast to non-nullable after null check <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(x * y) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &nbsp;&nbsp;&nbsp;else { <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"either \'$arg1\' or \'$arg2\' is not a number\"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;} <br>
+                } <br> <br>
+
+
+                <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                    &nbsp;&nbsp;&nbsp;printProduct("6", "7") <br>
+                    &nbsp;&nbsp;&nbsp;printProduct("a", "7") <br>
+                    &nbsp;&nbsp;&nbsp;printProduct("a", "b") <br>
+                } <br> <br>
+
+                or <br> <br>
+
+                <font color="#0037b3">fun</font> parseInt(str: String): Int? { <br>
+                    &nbsp;&nbsp;&nbsp;return str.toIntOrNull() <br>
+                } <br> <br>
+
+                <font color="#0037b3">fun</font> printProduct(arg1: String, arg2: String) { <br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> x = parseInt(arg1) <br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> y = parseInt(arg2) <br> <br>
+
+                    &nbsp;&nbsp;&nbsp;// - - - <br>
+                    &nbsp;&nbsp;&nbsp;if (x == null) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"Wrong number format in arg1: \'${arg1}\'\"</font>) <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return <br>
+                    &nbsp;&nbsp;&nbsp;} <br>
+                    &nbsp;&nbsp;&nbsp;if (y == null) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"Wrong number format in arg2: \'${arg2}\'\"</font>) <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return <br>
+                    &nbsp;&nbsp;&nbsp;} <br> <br>
+
+                    &nbsp;&nbsp;&nbsp;// x and y are automatically cast to non-nullable after null check <br>
+                    &nbsp;&nbsp;&nbsp;println(x * y) <br>
+                } <br> <br>
+
+                <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                    &nbsp;&nbsp;&nbsp;printProduct("6", "7") <br>
+                    &nbsp;&nbsp;&nbsp;printProduct("a", "7") <br>
+                    &nbsp;&nbsp;&nbsp;printProduct("99", "b") <br>
+                } <br> <br>
+
+                Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+                See Null-safety - https://kotlinlang.org/docs/reference/null-safety.html <br> <br>
+
+                <h4>Using type checks and automatic casts</h4>
+
+                The is operator checks if an expression is an instance of a type.
+                If an immutable local variable or property is checked for a specific type,
+                there\'s no need to cast it explicitly: <br> <br>
+
+                <font color="#0037b3">fun</font> getStringLength(obj: Any): Int? { <br>
+                    &nbsp;&nbsp;&nbsp;if (obj is String) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// \`obj\` is automatically cast to \`String\` in this branch <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return obj.length <br>
+                    &nbsp;&nbsp;&nbsp;} <br> <br>
+
+                    &nbsp;&nbsp;&nbsp;// \`obj\` is still of type \`Any\` outside of the type-checked branch <br>
+                    &nbsp;&nbsp;&nbsp;return null <br>
+                } <br>
+
+
+                <font color="#0037b3">fun</font> main(args: Array<String>) { <br> <br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">fun</font> printLength(obj: Any) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"\'$obj\' string length is ${getStringLength(obj) ?: "- - - err, not a string"} \"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;} <br> <br>
+                    &nbsp;&nbsp;&nbsp;printLength("Incomprehensibilities") <br>
+                    &nbsp;&nbsp;&nbsp;printLength(1000) <br>
+                    &nbsp;&nbsp;&nbsp;printLength(listOf(Any())) <br>
+                } <br> <br>
+
+                or <br> <br>
+
+                <font color="#0037b3">fun</font> getStringLength(obj: Any): Int? { <br>
+                    &nbsp;&nbsp;&nbsp;if (obj !is String) return null <br> <br>
+
+                    &nbsp;&nbsp;&nbsp;// \`obj\` is automatically cast to \`String\` in this branch <br>
+                    &nbsp;&nbsp;&nbsp;return obj.length <br>
+                } <br> <br>
+
+
+                <font color="#0037b3">fun</font> main(args: Array<String>) { <br> <br>
+                    &nbsp;&nbsp;&nbsp;<font color="#0037b3">fun</font> printLength(obj: Any) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"\'$obj\' string length is ${getStringLength(obj) ?: "--- err, not a string"} \"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;} <br> <br>
+                    &nbsp;&nbsp;&nbsp;printLength("Incomprehensibilities") <br>
+                    &nbsp;&nbsp;&nbsp;printLength(1000) <br>
+                    &nbsp;&nbsp;&nbsp;printLength(listOf(Any())) <br>
+                } <br> <br>
+
+                or even <br> <br>
+
+                <font color="#0037b3">fun</font> getStringLength(obj: Any): Int? { <br>
+                    &nbsp;&nbsp;&nbsp;// \`obj\` is automatically cast to `String` on the right-hand side of \`&&\` <br>
+                    &nbsp;&nbsp;&nbsp;if (obj is String && obj.length > 0) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return obj.length <br>
+                    &nbsp;&nbsp;&nbsp;} <br> <br>
+
+                    &nbsp;&nbsp;&nbsp;return null <br>
+                } <br> <br>
+
+
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br> <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">fun</font> printLength(obj: Any) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"\'$obj\' string length is ${getStringLength(obj) ?: "--- err, is empty or not a string at all"} \"</font>) <br>
+                &nbsp;&nbsp;&nbsp;} <br> <br>
+                &nbsp;&nbsp;&nbsp;printLength("Incomprehensibilities") <br>
+                &nbsp;&nbsp;&nbsp;printLength("") <br>
+                &nbsp;&nbsp;&nbsp;printLength(1000) <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See Classes - https://kotlinlang.org/docs/reference/classes.html
+            and Type casts - https://kotlinlang.org/docs/reference/typecasts.html <br>
+
+            <h4>Using a for loop</h4>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> items = listOf("apple", "banana", "kiwi") <br>
+                &nbsp;&nbsp;&nbsp;for (item in items) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(item) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            or <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> items = listOf("apple", "banana", "kiwi") <br>
+                &nbsp;&nbsp;&nbsp;for (index in items.indices) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"item at $index is ${items[index]}\"</font>) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See for loop - https://kotlinlang.org/docs/reference/control-flow.html#for-loops <br>
+
+            <h4>Using a while loop</h4>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> items = listOf("apple", "banana", "kiwi") <br>
+                &nbsp;&nbsp;&nbsp;var index = 0 <br>
+                &nbsp;&nbsp;&nbsp;while (index < items.size) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"item at $index is ${items[index]}\"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index++ <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See while loop - https://kotlinlang.org/docs/reference/control-flow.html#while-loops <br>
+
+            <h4>Using when expression</h4>
+
+            <font color="#0037b3">fun</font> describe(obj: Any): String = <br>
+            when (obj) { <br>
+                &nbsp;&nbsp;&nbsp;1          -> "One" <br>
+                &nbsp;&nbsp;&nbsp;"Hello"    -> "Greeting" <br>
+                &nbsp;&nbsp;&nbsp;is Long    -> "Long" <br>
+                &nbsp;&nbsp;&nbsp;!is String -> "Not a string" <br>
+                &nbsp;&nbsp;&nbsp;else       -> "Unknown" <br>
+            } <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;println(describe(1)) <br>
+                &nbsp;&nbsp;&nbsp;println(describe("Hello")) <br>
+                &nbsp;&nbsp;&nbsp;println(describe(1000L)) <br>
+                &nbsp;&nbsp;&nbsp;println(describe(2)) <br>
+                &nbsp;&nbsp;&nbsp;println(describe("other")) <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See when expression - https://kotlinlang.org/docs/reference/control-flow.html#when-expression <br>
+
+            <h4>Using ranges</h4>
+
+            Check if a number is within a range using in operator: <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> x = 10 <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> y = 9 <br>
+                &nbsp;&nbsp;&nbsp;if (x in 1..y+1) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"fits in range\"</font>) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br>
+
+            Check if a number is out of range: <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> list = listOf("a", "b", "c") <br>
+
+                &nbsp;&nbsp;&nbsp;if (-1 !in 0..list.lastIndex) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"-1 is out of range\"</font>) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &nbsp;&nbsp;&nbsp;if (list.size !in list.indices) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"list size is out of valid list indices range too\"</font>) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br>
+
+            Iterating over a range: <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;for (x in 1..5) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            or over a progression: <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;for (x in 1..10 step 2) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &nbsp;&nbsp;&nbsp;for (x in 9 downTo 0 step 3) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See Ranges - https://kotlinlang.org/docs/reference/ranges.html <br>
+
+            <h4>Using collections</h4>
+
+            Iterating over a collection: <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) {  <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> items = listOf("apple", "banana", "kiwi") <br>
+                &nbsp;&nbsp;&nbsp;for (item in items) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;println(item) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br> <br>
+
+            Checking if a collection contains an object using in operator: <br> <br>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> items = setOf("apple", "banana", "kiwi") <br>
+                &nbsp;&nbsp;&nbsp;when { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"orange" in items -> println(<font color="#4ed297">\"juicy\"</font>) <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"apple" in items -> println(<font color="#4ed297">\"apple is fine too\"</font>) <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+            } <br>
+
+            <h4>Using lambda expressions to filter and map collections:</h4>
+
+            <font color="#0037b3">fun</font> main(args: Array<String>) { <br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">val</font> fruits = listOf("banana", "avocado", "apple", "kiwi") <br>
+                &nbsp;&nbsp;&nbsp;fruits <br>
+                &nbsp;&nbsp;&nbsp;.filter { it.startsWith("a") } <br>
+                &nbsp;&nbsp;&nbsp;.sortedBy { it } <br>
+                &nbsp;&nbsp;&nbsp;.map { it.toUpperCase() } <br>
+                &nbsp;&nbsp;&nbsp;.forEach { println(it) } <br>
+            } <br>
+
+            Target platform: JVMRunning on kotlin v. 1.1.3 <br> <br>
+
+            See Higher-order functions and Lambdas - https://kotlinlang.org/docs/reference/lambdas.html <br>
+
+
+
+
+            </p>
+
+         ]]>
+    </string>
+
+    <string name="kotlinpidioms_topic_content">
+         <![CDATA[
+
+            <h3>Idioms</h3>
+
+            <p>
+                A collection of random and frequently used idioms in Kotlin. If you have a favorite idiom,
+                contribute it by sending a pull request.
+            </p>
+
+            <h4>Creating DTOs (POJOs/POCOs)</h4>
+
+            <font color="#0037b3">data class</font> Customer(<font color="#0037b3">val
+            </font> name: String, <font color="#0037b3">val</font> email: String) <br><br>
+
+            provides a Customer class with the following functionality:<br><br>
+
+            - getters (and setters in case of vars) for all properties <br><br>
+            - equals() <br><br>
+            - hashCode() <br><br>
+            - toString() <br><br>
+            - copy() <br><br>
+            - component1(), component2(), …, for all properties (see Data classes) -
+            https://kotlinlang.org/docs/reference/data-classes.html <br><br>
+
+            <h4>Default values for function parameters</h4>
+
+            <font color="#0037b3">fun</font> foo(a: Int = 0, b: String = "") { \.\.\. } <br><br>
+
+            <h4>Filtering a list</h4>
+
+            <font color="#0037b3">val</font> positives = list.filter { x -> x > 0 } <br><br>
+
+            Or alternatively, even shorter: <br><br>
+
+            <font color="#0037b3">val</font> positives = list.filter { it > 0 } <br><br>
+
+            <h4>String Interpolation</h4>
+
+            println(<font color="#4ed297">\"Name $name\"</font>) <br><br>
+
+            <h4>Instance Checks</h4>
+
+            when (x) { <br><br>
+                &nbsp;&nbsp;&nbsp;is Foo -> ... <br><br>
+                &nbsp;&nbsp;&nbsp;is Bar -> ... <br><br>
+                &nbsp;&nbsp;&nbsp;else   -> ... <br><br>
+            } <br><br>
+
+            <h4>Traversing a map/list of pairs</h4>
+
+            for ((k, v) in map) { <br><br>
+                &nbsp;&nbsp;&nbsp;println(<font color="#4ed297">\"$k -> $v\"</font>) <br><br>
+            } <br><br>
+
+            k, v can be called anything. <br><br>
+
+            <h4>Using ranges</h4>
+
+            <font color="#0037b3">for</font> (i in 1..100) { ... }  // closed range: includes 100 <br><br>
+            <font color="#0037b3">for</font> (i in 1 until 100) { ... } // half-open range: does not include 100 <br><br>
+            <font color="#0037b3">for</font> (x in 2..10 step 2) { ... } <br><br>
+            <font color="#0037b3">for</font> (x in 10 downTo 1) { ... } <br><br>
+            <font color="#0037b3">if</font> (x in 1..10) { ... } <br><br>
+
+            <h4>Read-only list</h4>
+
+            <font color="#0037b3">fun</font> list = listOf("a", "b", "c") <br><br>
+
+            <h4>Read-only map</h4>
+
+            <font color="#0037b3">fun</font> map = mapOf("a" to 1, "b" to 2, "c" to 3) <br><br>
+
+            <h4>Accessing a map</h4>
+
+            println(map[<font color="#4ed297”>\"key\"</font>]) <br><br>
+            map["key"] = value <br><br>
+
+            <h4>Lazy property</h4>
+
+            <font color="#0037b3">val</font> p: String by lazy { <br><br>
+                &nbsp;&nbsp;&nbsp;// compute the string <br><br>
+            } <br><br>
+
+            <h4>Extension Functions</h4>
+
+            <font color="#0037b3">fun</font> String.spaceToCamelCase() { ... } <br><br>
+
+            "Convert this to camelcase".spaceToCamelCase() <br><br>
+
+            <h4>Creating a singleton</h4>
+
+            <font color="#0037b3">object</font> Resource { <br><br>
+                &nbsp;&nbsp;&nbsp;val name = "Name" <br><br>
+            } <br><br>
+
+            <h4>If not null shorthand</h4>
+
+            <font color="#0037b3">val</font> files = File("Test").listFiles() <br><br>
+
+            println(files?.size) <br><br>
+
+            <h4>If not null and else shorthand</h4>
+
+            <font color="#0037b3">val</font> files = File("Test").listFiles() <br><br>
+
+            println(files?.size ?: "empty") <br><br>
+
+            <h4>Executing a statement if null</h4>
+
+            <font color="#0037b3">val</font> data = ... <br><br>
+
+            <font color="#0037b3">val</font> email = data["email"] ?: throw IllegalStateException("Email is missing!") <br><br>
+
+            <h4>Execute if not null</h4>
+
+            <font color="#0037b3">val</font> data = ... <br><br>
+
+            data?.let { <br><br>
+                &nbsp;&nbsp;&nbsp;... // execute this block if not null <br><br>
+            } <br><br>
+
+            <h4>Map nullable value if not null</h4>
+
+            <font color="#0037b3">val</font> data = ... <br><br>
+
+            <font color="#0037b3">val</font> mapped = data?.let { transformData(it) } ?: defaultValueIfDataIsNull <br><br>
+
+            <h4>Return on when statement</h4>
+
+            <font color="#0037b3">fun</font> transform(color: String): Int { <br><br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">return when</font> (color) { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Red" -> 0 <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Green" -> 1 <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Blue" -> 2 <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else -> throw IllegalArgumentException("Invalid color param value") <br><br>
+                &nbsp;&nbsp;&nbsp;} <br><br>
+            } <br><br>
+
+            <h4>\'try/catch\' expression</h4>
+
+            <font color="#0037b3">fun</font> test() { <br><br>
+                &nbsp;&nbsp;&nbsp;val result = try { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count() <br><br>
+                &nbsp;&nbsp;&nbsp;} catch (e: ArithmeticException) { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw IllegalStateException(e) <br><br>
+                &nbsp;&nbsp;&nbsp;} <br><br>
+
+                &nbsp;&nbsp;&nbsp;// Working with result <br><br>
+            } <br><br>
+
+            <h4>\'if\' expression</h4>
+
+            <font color="#0037b3">fun</font> foo(param: Int) { <br><br>
+                &nbsp;&nbsp;&nbsp;val result = if (param == 1) { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"one" <br><br>
+                &nbsp;&nbsp;&nbsp;} else if (param == 2) { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"two" <br><br>
+                &nbsp;&nbsp;&nbsp;} else { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"three" <br><br>
+                &nbsp;&nbsp;&nbsp;} <br><br>
+            } <br><br>
+
+            <h4>Builder-style usage of methods that return Unit</h4>
+
+            <font color="#0037b3">fun</font> arrayOfMinusOnes(size: Int): IntArray { <br><br>
+                &nbsp;&nbsp;&nbsp;return IntArray(size).apply { fill(-1) } <br><br>
+            } <br><br>
+
+            <h4>Single-expression functions</h4>
+
+            <font color="#0037b3">fun</font> theAnswer() = 42 <br><br>
+
+            This is equivalent to <br><br>
+
+            <font color="#0037b3">fun</font> theAnswer(): Int { <br><br>
+                &nbsp;&nbsp;&nbsp;return 42 <br><br>
+            } <br><br>
+
+            This can be effectively combined with other idioms, leading to shorter code.
+            E.g. with the when-expression: <br><br>
+
+            <font color="#0037b3">fun</font> transform(color: String): Int = when (color) { <br><br>
+                &nbsp;&nbsp;&nbsp;"Red" -> 0 <br><br>
+                &nbsp;&nbsp;&nbsp;"Green" -> 1 <br><br>
+                &nbsp;&nbsp;&nbsp;"Blue" -> 2 <br><br>
+                &nbsp;&nbsp;&nbsp;else -> throw IllegalArgumentException("Invalid color param value") <br><br>
+            } <br><br>
+
+            <h4>Calling multiple methods on an object instance (\'with\')</h4>
+
+            <font color="#0037b3">class</font> Turtle { <br><br>
+                &nbsp;&nbsp;&nbsp;fun penDown() <br><br>
+                &nbsp;&nbsp;&nbsp;fun penUp() <br><br>
+                &nbsp;&nbsp;&nbsp;fun turn(degrees: Double) <br><br>
+                &nbsp;&nbsp;&nbsp;fun forward(pixels: Double) <br><br>
+            } <br><br>
+
+            <font color="#0037b3">val</font> myTurtle = Turtle() <br><br>
+
+            <font color="#0037b3">with</font>(myTurtle) { //draw a 100 pix square <br><br>
+                &nbsp;&nbsp;&nbsp;penDown() <br><br>
+                &nbsp;&nbsp;&nbsp;for(i in 1..4) { <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forward(100.0) <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;turn(90.0) <br><br>
+                &nbsp;&nbsp;&nbsp;} <br><br>
+                &nbsp;&nbsp;&nbsp;penUp() <br><br>
+            } <br><br>
+
+            <h4>Java 7\'s try with resources</h4>
+
+            <font color="#0037b3">val</font> stream = Files.newInputStream(Paths.get("/some/file.txt")) <br><br>
+
+            stream.buffered().reader().use { reader -> <br><br>
+                &nbsp;&nbsp;&nbsp;println(reader.readText()) <br><br>
+            } <br><br>
+
+            <h4>Convenient form for a generic function that requires the generic type information</h4>
+
+            //  public final class Gson { <br><br>
+            //     ... <br><br>
+            //     public <T> T fromJson(JsonElement json, Class<T> classOfT) throws JsonSyntaxException { <br><br>
+            //     ... <br><br>
+
+            <font color="#0037b3">inline fun</font> <reified T: Any> Gson.fromJson(json: JsonElement): T = this.fromJson(json, T::class.java) <br><br>
+
+            <h4>Consuming a nullable Boolean</h4>
+
+            <font color="#0037b3">val</font> b: Boolean? = ... <br><br>
+            if (b == true) { <br><br>
+                &nbsp;&nbsp;&nbsp;... <br><br>
+            } else { <br><br>
+                &nbsp;&nbsp;&nbsp;// `b` is false or null <br><br>
+            } <br><br>
+
+
+         ]]>
+    </string>
+
+    <string name="kotlincodingconvention_topic_content">
+         <![CDATA[
+
+            <h3>Coding Conventions</h3>
+            <p>This page contains the current coding style for the Kotlin language.</p>
+
+            <h4>Naming Style</h4>
+            <p>If in doubt, default to the Java Coding Conventions such as: <br><br>
+
+                    - use of camelCase for names (and avoid underscore in names) <br><br>
+                    - types start with upper case <br><br>
+                    - methods and properties start with lower case <br><br>
+                    - use 4 space indentation <br><br>
+                    - public functions should have documentation such that it appears in Kotlin Doc <br><br>
+            </p>
+
+            <h4>Colon</h4>
+            <p>There is a space before colon where colon separates type and supertype and there\'s no space where colon separates instance and type:</p>
+            <font color="#0037b3">interface</font> Foo<<font color="#0037b3">out</font> T : Any> : Bar {<br><br>
+                &nbsp;&nbsp;&nbsp;<font color="#0037b3">fun</font> foo(a: Int): T<br><br>
+            }<br><br>
+
+            <h4>Lambdas</h4>
+            <p>In lambda expressions, spaces should be used around the curly braces, as well as around the arrow which separates the parameters from the body. Whenever possible, a lambda should be passed outside of parentheses.</p>
+            list.filter { it > 10 }.map { element -> element * 2 } <br><br>
+
+            <p>In lambdas which are short and not nested, it\'s recommended to use the it convention instead of declaring the parameter explicitly. In nested lambdas with parameters, parameters should be always declared explicitly.</p>
+            <h4>Class header formatting</h4>
+            <p>Classes with a few arguments can be written in a single line:</p>
+            <font color="#0037b3">class</font> Person(id: Int, name: String) <br><br>
+
+            <p>Classes with longer headers should be formatted so that each primary constructor argument is in a separate line with indentation. Also, the closing parenthesis should be on a new line. If we use inheritance, then the superclass constructor call or list of implemented interfaces should be located on the same line as the parenthesis:</p>
+            <font color="#0037b3">class</font> Person( <br><br>
+                &nbsp;&nbsp;&nbsp;id: Int,  <br><br>
+                &nbsp;&nbsp;&nbsp;name: String, <br><br>
+                &nbsp;&nbsp;&nbsp;surname: String <br><br>
+            ) : Human(id, name) { <br><br>
+                &nbsp;&nbsp;&nbsp;// ... <br><br>
+            }
+
+            <p>For multiple interfaces, the superclass constructor call should be located first and then each interface should be located in a different line:</p>
+            <font color="#0037b3">class</font> Person( <br><br>
+                &nbsp;&nbsp;&nbsp;id: Int,  <br><br>
+                &nbsp;&nbsp;&nbsp;name: String, <br><br>
+                &nbsp;&nbsp;&nbsp;surname: String <br><br>
+            ) : Human(id, name), <br><br>
+                &nbsp;&nbsp;&nbsp;KotlinMaker { <br><br>
+                &nbsp;&nbsp;&nbsp;// ... <br><br>
+            }
+            <p>Constructor parameters can use either the regular indent or the continuation indent (double the regular indent).</p>
+            <h4>Unit</h4>
+            <p>If a function returns Unit, the return type should be omitted:</p>
+            <font color="#0037b3">fun</font> foo() { // ": Unit" is omitted here <br><br>
+
+            } <br><br>
+
+            <h4>Functions vs Properties</h4>
+            <p>In some cases functions with no arguments might be interchangeable with read-only properties. Although the semantics are similar, there are some stylistic conventions on when to prefer one to another.</p>
+            <p>Prefer a property over a function when the underlying algorithm:
+                    - does not throw <br><br>
+                    - has a O(1) complexity <br><br>
+                    - is cheap to calculate (or caсhed on the first run) <br><br>
+                    - returns the same result over invocations <br><br>
+            </p>
+
+
+         ]]>
+    </string>
+
+</resources>

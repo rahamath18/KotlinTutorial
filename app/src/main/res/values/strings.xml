@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Kotlin Tutorial</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_intro">
+         <![CDATA[
+         <p>
+            <h3>About This App</h3>
+
+            This app is for Kotlin tutorial.
+            This app is developed and code written in kotlin programming language using android studio 3.
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="about_app_section">
+         <![CDATA[
+            <h2>Kotlin Tutorial</h2><br>
+            <p>
+                Provides a complete reference to the Kotlin language - https://kotlinlang.org/docs/reference/
+                 and the standard library - https://kotlinlang.org/api/latest/jvm/stdlib/index.html
+            </p>
+
+            <h4>Where to Begin</h4>
+
+            <p>
+                This reference is designed for you to easily learn Kotlin in a matter of hours.
+                Start with the basic syntax - https://kotlinlang.org/docs/reference/basic-syntax.html,
+                then proceed to more advanced topics. While reading,
+                you can try out the examples in the online IDE - http://try.kotlinlang.org/.
+            </p>
+
+            <p>
+                Once you get an idea of what Kotlin looks like, try solving some Kotlin Koans
+                https://kotlinlang.org/docs/tutorials/koans.html -
+                interactive programming exercises. If you are not sure how to solve a Koan,
+                or you\'re looking for a more elegant solution, check out Kotlin idioms -
+                https://kotlinlang.org/docs/reference/idioms.html.
+            </p>
+
+            <p>
+                Browse offline
+            </p>
+
+            You can download the entire reference documentation as a single PDF file -
+            https://kotlinlang.org/docs/kotlin-docs.pdf.
+         </p>
+         ]]>
+     </string>
+
+    <string name="intro_label"> 1. Kotlin Introduction</string>
+    <string name="javacode_vs_kotlincode_label"> 2. Java Code vs Kotlin Code</string>
+    <string name="basics_label"> 3. Basics</string>
+    <string name="clsobj_label"> 4. Classes and Objects</string>
+    <string name="funandlambdas_label"> 5. Functions and Lambdas</string>
+    <string name="collections_label"> 6. Collections</string>
+    <string name="callservlet_label"> 7. Call a Servlet</string>
+    <string name="callspring_label"> 8. Call a Spring Controller</string>
+    <string name="callrestservice_label"> 9. Call a REST Service</string>
+    <string name="post_persist_a_form_label"> 10. POST and PERSIST a Form</string>
+    <string name="StudyMaterialAndRef_label"> 11. Kotlin Study Materials and References</string>
+
+    <string name="intro_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Kotlin Introduction</h5><br>
+         </p>
+         ]]>
+     </string>
+
+    <string name="java_vs_kotlin_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Java Code vs Kotlin Code</h5><br>
+         </p>
+         ]]>
+     </string>
+
+    <string name="basics_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Kotlin Basics</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            23 Jul 2017, 3:00 AM Sun, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            22 Jul 2017, 9:30 PM Sat, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="clsobj_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Classes and Objects</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            26 Jul 2017, 3:00 AM Wed, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            25 Jul 2017, 9:30 PM Tue, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="funandlambdas_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Functions and Lambdas</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            29 Jul 2017, 3:00 AM Sat, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            28 Jul 2017, 9:30 PM Fri, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="collections_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Collections</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            01 Aug 2017, 3:00 AM Tue, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            31 Jul 2017, 9:30 PM Mon, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="call_a_servlet_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Call a Servlet</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            04 Aug 2017, 3:00 AM Fri, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            03 Aug 2017, 9:30 PM Thu, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="call_a_spring_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Call a Spring Controller</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            07 Aug 2017, 3:00 AM Mon, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            06 Aug 2017, 9:30 PM Sun, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="call_a_REST_service_topic_content">
+         <![CDATA[
+         <p>
+            <h5>Call a REST Service</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            10 Aug 2017, 3:00 AM Thu, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            09 Aug 2017, 9:30 PM Wed, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+    <string name="post_persist_form_topic_content">
+         <![CDATA[
+         <p>
+            <h5>POST and Persist a Form</h5><br>
+
+            <strong>
+
+                This screen available asap from <br><br>
+
+            </strong>
+
+            13 Aug 2017, 3:00 AM Sun, Indian Standard Time (IST)  <br><br>
+
+            is <br><br>
+
+            12 Aug 2017, 9:30 PM Sat, Greenwich Mean Time (GMT) <br><br>
+
+         </p>
+         ]]>
+     </string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_about_app">About This Application</string>
+    <string name="title_activity_topic">Topic</string>
+    <string name="title_activity_introduction">1. Introduction</string>
+</resources>
